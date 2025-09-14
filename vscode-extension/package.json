@@ -1,0 +1,21 @@
+{
+    "name": "ai-code-review",
+    "displayName": "AI Code Review",
+    "description": "Run AI-powered code review directly in VS Code",
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.80.0"
+    },
+    "activationEvents": [
+        "onCommand:extension.reviewCode"
+    ],
+    "main": "./extension.js",
+    "contributes": {
+        "commands": [
+            {
+                "command": "extension.reviewCode",
+                "title": "Review Code with AI"
+            }
+        ]
+    }
+}

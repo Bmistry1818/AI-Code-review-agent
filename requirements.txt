@@ -1,0 +1,5 @@
+openai
+pylint
+black
+gitpython
+pip install -r requirements.txt
